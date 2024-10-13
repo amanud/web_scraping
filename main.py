@@ -98,10 +98,6 @@ while True:
 
             points1 = points.text
 
-            upvote_old = int(points.split(" ")[0])
-
-            All_upvote.append(upvote_old)
-
             max_upvote = All_upvote[0]
 
             for upvote in range(len(All_upvote)):
